@@ -85,8 +85,11 @@ input[type="submit"] {
   cursor: pointer;
   border-radius: 10px;
   font-weight: 700;
+  transition: all 0.3s ease;
 }
 
 input[type="submit"]:hover {
   background-color: magenta;
+  color: white;
+  transition: all 0.3s ease;
 }
